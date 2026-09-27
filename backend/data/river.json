@@ -1,0 +1,26 @@
+{
+  "_note": "SAMPLE DATA. Approximate Mutha / Mula-Mutha river centerline downstream of Khadakwasla dam, Pune. Hand-digitised for demo only. Replace with a real DEM-derived centerline.",
+  "dam": {
+    "id": "khadakwasla",
+    "name": "Khadakwasla Dam",
+    "river": "Mutha",
+    "lat": 18.4415,
+    "lng": 73.7680,
+    "district": "Pune"
+  },
+  "centerline": [
+    [18.4415, 73.7680],
+    [18.4520, 73.7760],
+    [18.4630, 73.7870],
+    [18.4740, 73.7960],
+    [18.4830, 73.8060],
+    [18.4930, 73.8190],
+    [18.5030, 73.8370],
+    [18.5140, 73.8470],
+    [18.5215, 73.8540],
+    [18.5290, 73.8600],
+    [18.5330, 73.8720],
+    [18.5370, 73.8830],
+    [18.5440, 73.9000]
+  ]
+}

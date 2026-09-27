@@ -1,0 +1,75 @@
+{
+  "_note": "SAMPLE DATA. Parameters for a simplified risk engine that stands in for SPH / Delft3D outputs until real simulation results are loaded. 'breach' holds default inputs for the SPH / Delft3D simulation view (volume in million m3, dam height in m, breach formation time in min).",
+  "default_active": "S1",
+  "scenarios": [
+    {
+      "id": "S1",
+      "name": "Overtopping with partial breach",
+      "trigger": "Water level",
+      "breach_width_m": 60,
+      "reservoir_level_pct": 102,
+      "wave_speed_kmph": 6.0,
+      "start_delay_min": 20,
+      "peak_depth_m": 3.5,
+      "peak_velocity_mps": 1.8,
+      "decay_km": 25,
+      "zone_width_m": {
+        "EXTREME": 150,
+        "HIGH": 400,
+        "MODERATE": 750
+      },
+      "breach": {
+        "volume_mm3": 57,
+        "height_m": 32,
+        "formation_min": 45,
+        "failure_mode": "overtopping"
+      }
+    },
+    {
+      "id": "S2",
+      "name": "Full breach at full reservoir level",
+      "trigger": "Breach size",
+      "breach_width_m": 180,
+      "reservoir_level_pct": 100,
+      "wave_speed_kmph": 10.0,
+      "start_delay_min": 10,
+      "peak_depth_m": 7.0,
+      "peak_velocity_mps": 3.2,
+      "decay_km": 30,
+      "zone_width_m": {
+        "EXTREME": 250,
+        "HIGH": 600,
+        "MODERATE": 1100
+      },
+      "breach": {
+        "volume_mm3": 56,
+        "height_m": 32,
+        "formation_min": 20,
+        "failure_mode": "overtopping"
+      }
+    },
+    {
+      "id": "S3",
+      "name": "Upstream river blockage release",
+      "trigger": "River blockage",
+      "breach_width_m": 90,
+      "reservoir_level_pct": 95,
+      "wave_speed_kmph": 8.0,
+      "start_delay_min": 30,
+      "peak_depth_m": 5.0,
+      "peak_velocity_mps": 2.5,
+      "decay_km": 20,
+      "zone_width_m": {
+        "EXTREME": 200,
+        "HIGH": 500,
+        "MODERATE": 900
+      },
+      "breach": {
+        "volume_mm3": 24,
+        "height_m": 18,
+        "formation_min": 30,
+        "failure_mode": "piping"
+      }
+    }
+  ]
+}

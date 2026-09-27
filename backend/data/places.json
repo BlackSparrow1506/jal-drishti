@@ -1,0 +1,41 @@
+{
+  "_note": "SAMPLE DATA. Approximate locations and made-up names / populations for demo. Replace with OSM + census data.",
+  "shelters": [
+    {"id": "sh1", "name": "Kothrud Relief Camp (sample)", "lat": 18.5074, "lng": 73.8077, "capacity": 2500},
+    {"id": "sh2", "name": "Parvati Hill Relief Camp (sample)", "lat": 18.4975, "lng": 73.8470, "capacity": 1800},
+    {"id": "sh3", "name": "Aundh Relief Camp (sample)", "lat": 18.5580, "lng": 73.8070, "capacity": 3000},
+    {"id": "sh4", "name": "Dhayari Relief Camp (sample)", "lat": 18.4560, "lng": 73.8150, "capacity": 1500},
+    {"id": "sh5", "name": "Pashan Relief Camp (sample)", "lat": 18.5370, "lng": 73.7950, "capacity": 2000},
+    {"id": "sh6", "name": "Swargate Relief Camp (sample)", "lat": 18.4990, "lng": 73.8600, "capacity": 2200}
+  ],
+  "facilities": [
+    {"id": "f1", "type": "hospital", "name": "Deccan area hospital (sample)", "lat": 18.5165, "lng": 73.8440},
+    {"id": "f2", "type": "hospital", "name": "Warje area hospital (sample)", "lat": 18.4850, "lng": 73.8030},
+    {"id": "f3", "type": "hospital", "name": "Kothrud area hospital (sample)", "lat": 18.5050, "lng": 73.8150},
+    {"id": "f4", "type": "school", "name": "Erandwane school (sample)", "lat": 18.5055, "lng": 73.8360},
+    {"id": "f5", "type": "school", "name": "Shivajinagar school (sample)", "lat": 18.5300, "lng": 73.8520},
+    {"id": "f6", "type": "bridge", "name": "Warje bridge (sample)", "lat": 18.4830, "lng": 73.8060},
+    {"id": "f7", "type": "bridge", "name": "Mhatre bridge (sample)", "lat": 18.5030, "lng": 73.8370},
+    {"id": "f8", "type": "bridge", "name": "Sangam bridge (sample)", "lat": 18.5290, "lng": 73.8600},
+    {"id": "f9", "type": "school", "name": "Hingne school (sample)", "lat": 18.4880, "lng": 73.8200}
+  ],
+  "localities": [
+    {"id": "l1", "name": "Khadakwasla village", "lat": 18.4450, "lng": 73.7720, "population": 14000},
+    {"id": "l2", "name": "Shivane", "lat": 18.4640, "lng": 73.7900, "population": 22000},
+    {"id": "l3", "name": "Warje", "lat": 18.4860, "lng": 73.8040, "population": 60000},
+    {"id": "l4", "name": "Karve Nagar", "lat": 18.4900, "lng": 73.8150, "population": 45000},
+    {"id": "l5", "name": "Erandwane", "lat": 18.5060, "lng": 73.8320, "population": 38000},
+    {"id": "l6", "name": "Deccan", "lat": 18.5160, "lng": 73.8420, "population": 30000},
+    {"id": "l7", "name": "Narayan Peth", "lat": 18.5180, "lng": 73.8520, "population": 28000},
+    {"id": "l8", "name": "Shivajinagar", "lat": 18.5310, "lng": 73.8500, "population": 50000},
+    {"id": "l9", "name": "Kothrud", "lat": 18.5074, "lng": 73.8077, "population": 120000},
+    {"id": "l10", "name": "Bund Garden", "lat": 18.5390, "lng": 73.8820, "population": 26000},
+    {"id": "l11", "name": "Vitthalwadi", "lat": 18.4790, "lng": 73.8230, "population": 24000}
+  ],
+  "demo_locations": [
+    {"id": "d1", "name": "Deccan riverside", "lat": 18.5150, "lng": 73.8465},
+    {"id": "d2", "name": "Warje riverside", "lat": 18.4845, "lng": 73.8075},
+    {"id": "d3", "name": "Erandwane", "lat": 18.5085, "lng": 73.8300},
+    {"id": "d4", "name": "Kothrud", "lat": 18.5074, "lng": 73.8077}
+  ]
+}
